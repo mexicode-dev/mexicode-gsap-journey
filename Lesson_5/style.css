@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: dodgerblue;
+  color: white;
+
+  display: flex;
+  justify-content: center; /* poziomo */
+  align-items: center; /* pionowo */
+}
+
+#toys {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+
+  height: 70vh; /* lub px */
+}
+
+#toys img {
+  display: block;
+  height: 50%;
+  width: auto;
+}
