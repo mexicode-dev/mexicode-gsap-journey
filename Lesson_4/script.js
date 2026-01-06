@@ -8,5 +8,5 @@
 //   { x: 500, y: 100, scale: 1, rotation: 360, duration: 3 }
 // );
 
-gsap.to('#crocodile', { duration: 2, x: 600, ease: 'back(6)' });
-gsap.to('#rabbit', { duration: 2, x: 600, ease: 'linear' });
+gsap.to('#crocodile', { duration: 3, x: 600, ease: 'back(6)' });
+gsap.to('#rabbit', { duration: 3, x: 600, ease: 'linear' });
